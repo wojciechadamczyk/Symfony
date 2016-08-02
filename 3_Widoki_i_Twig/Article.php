@@ -4,7 +4,6 @@
 //namespace <your_bundle_name>\Entity;
 namespace CoderslabBundle\Entity;
 
-use Doctrine\ORM\Mapping as ORM;
 
 class Article
 {
@@ -22,7 +21,7 @@ class Article
     public static function GetAllArticles(){
         $ret = [];
         for($i=0; $i< 20; $i++){
-            $ret[] = GetArticlebyId($i);
+            $ret[] = self::GetArticlebyId($i);
         }
         return $ret;
     }
