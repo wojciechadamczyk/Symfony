@@ -1,6 +1,6 @@
 <?php
 
-// POPRAW NAZWE BUNDLA NA SWOJA
+// POPRAW NAZWĘ BUNDLA NA SWOJĄ
 //namespace <your_bundle_name>\Entity;
 namespace CoderslabBundle\Entity;
 
