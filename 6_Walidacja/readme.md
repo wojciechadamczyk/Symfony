@@ -13,13 +13,15 @@ Zrób następujące kroki:
 
 W katalogu stwórz nowy projekt Symfony i wgraj do niego wcześniej przygotowany plik **.gitignore**.
 
-### Zadanie 1	&ndash; tworzenie projektu
+## Część A &ndash; walidacja
+
+### Zadanie A1	&ndash; tworzenie projektu
 Stwórz nowy projekt o nazwie `project_validation` (jeżeli dostaniesz błąd „Could not delete /tmp/…” nie przejmuj się  &ndash; Symfony będzie poprawnie działać).
 Następnie:
   1. Stwórz w nim nowy bundle (o nazwie CodersLab).
   2. Usuń AppBundle (wykonaj takie same kroki jak w zadaniu 2. z ćwiczeń dotyczących podstaw Symfony).
 
-### Zadanie 2 &ndash; encja Książka
+### Zadanie A2 &ndash; encja Książka
 W projekcie stwórz nową encję `Książka`, która ma mieć następujące pola i walidacje:
   1. id,
   2. title &ndash; napis, co najmniej pięć znaków,
@@ -27,16 +29,18 @@ W projekcie stwórz nową encję `Książka`, która ma mieć następujące pola
   4. description &ndash; tekst, maksymalnie 600 znaków,
   5. pages &ndash; int, większy od 0.
 
-### Zadanie 3 &ndash; encja Autor
+### Zadanie A3 &ndash; encja Autor
 W projekcie stwórz nową encję `Autor`, która ma mieć następujące pola i walidacje:
   1. id,
   2. name &ndash; napis, co najmniej 5 znaków,
   3. description &ndash; tekst, maksymalnie 600 znaków,
   4. age &ndash; int, co najmniej 18,
 
-### Zadanie 4 &ndash; relacje
+### Zadanie A4 &ndash; relacje
 Połącz stworzone encje relacją wiele do jednego (dwukierunkową). Pamiętaj o wygenerowaniu odpowiednich setterów i getterów dla relacji (użyj do tego konsoli).
 Pamiętaj o walidacji &ndash; w przypadku `Książki` &ndash; `Autor` musi być nastawiony (nie może być `null`)!
+
+## Część B &ndash; CRUD (Create, Read, Update, Delete)
 
 ### Zadanie 5 &ndash; CRUD
 Stwórz kontrolery dla książki i autora. Stwórz w nich wszystkie akcje potrzebne do implementacji CRUD.
