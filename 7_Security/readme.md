@@ -13,15 +13,15 @@ Zrób następujące kroki:
 
 W katalogu stwórz nowy projekt Symfony i wgraj do niego wcześniej przygotowany plik **.gitignore**.
 
-## Statyczny user
+## Część A &ndash; Statyczny user
 
-### Zadanie 1 &ndash; tworzenie projektu
+### Zadanie A1 &ndash; tworzenie projektu
 Stwórz nowy projekt o nazwie `project_static_user` (jeżeli dostaniesz błąd „Could not delete /tmp/…” nie przejmuj się &ndash; Symfony będzie poprawnie działać).
 Następnie:
   1. Stwórz w nim nowy bundle (o nazwie CodersLab).
   2. Usuń AppBundle (wykonaj takie same kroki jak w zadaniu 2. z ćwiczeń dotyczących podstaw Symfony).
 
-### Zadanie 2 &ndash; nowy kontroler
+### Zadanie A2 &ndash; nowy kontroler
 W projekcie stwórz kontroler z dwoma akcjami:
   * `/all`,
   * `/restricted`.
@@ -29,15 +29,15 @@ W projekcie stwórz kontroler z dwoma akcjami:
 Następnie skonfiguruj Symfony tak, żeby akcja `restricted` była dostępna tylko po zalogowaniu.
 Zrób to używając komponentu Security i statycznych użytkowników (wpisanych na stałe do plików konfiguracyjnych).
 
-## FosUserBundle
+## Część B &ndash; FosUserBundle
 
-### Zadanie 3 &ndash; tworzenie projektu
+### Zadanie B1 &ndash; tworzenie projektu
 Stwórz nowy projekt o nazwie `project_fos_user` (jeżeli dostaniesz błąd „Could not delete /tmp/…” nie przejmuj się &ndash; Symfony będzie poprawnie działać).
 Następnie:
   1. Stwórz w nim nowy bundle (o nazwie CodersLab).
   2. Usuń AppBundle (wykonaj takie same kroki jak w zadaniu 2. z ćwiczeń dotyczących podstaw Symfony).
 
-### Zadanie 4
+### Zadanie B2
 W nowym projekcie uruchom `FosUserBundle`. Projekt &ndash; póki co &ndash; ma dawać następujące możliwości:
 * logowania,
 * rejestracji,
@@ -47,7 +47,9 @@ W nowym projekcie uruchom `FosUserBundle`. Projekt &ndash; póki co &ndash; ma d
 Poza podstawowymi informacjami, które trzyma `FosUserBundle`, nasz użytkownik powinien jeszcze trzymać swój opis.
 Spróbuj podmienić widoki na własne (żeby nie używać widoków przegotowanych przez FOS).
 
-### Zadanie 5
+## Część C &ndash;
+
+### Zadanie C1
 Do ostatnich warsztatów doimplementuj funkcjonalność użytkowników. Każdy z nich powinien mieć swoją książkę adresową.
 Stwórz potrzebną Ci encję i połącz ją z kontaktami (relacja wiele do jednego &ndash; jednokierunkowa).
 
