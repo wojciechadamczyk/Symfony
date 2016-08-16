@@ -13,13 +13,15 @@
 
 W katalogu stwórz nowy projekt Symfony i wgraj do niego wcześniej przygotowany plik **.gitignore**.
 
-### Zadanie 1 &ndash; tworzenie projektu
+## Część A &ndash; podstawowe formularze
+
+### Zadanie A1 &ndash; tworzenie projektu
 Stwórz nowy projekt o nazwie `projekt_form` (jeżeli dostaniesz błąd „Could not delete /tmp/…” nie przejmuj się – Symfony będzie poprawnie działać).
 Następnie:
   1. Stwórz w nim nowy bundle (o nazwie CodersLab).
   2. Usuń AppBundle (wykonaj takie same kroki jak w zadaniu 2. z ćwiczeń dotyczących podstaw Symfony).
 
-### Zadanie 2 &ndash; Tweet
+### Zadanie A2 &ndash; Tweet
 Wygeneruj model `Tweet`, który ma zawierać:
   * id,
   * nazwę,
@@ -31,18 +33,20 @@ Wygeneruj dla niego Kontroler z następującymi akcjami:
   * `showAll`.
 Póki co napisz akcję `showAll`, która wyświetli tytuły wszystkich `Tweetów` w bazie danych.
 
-### Zadanie 3 &ndash; tworzenie Tweeta
+### Zadanie A3 &ndash; tworzenie Tweeta
 Napisz dla Tweeta następujące akcje:
 * `new`, która ma wyświetlać formularz,
 * `create`, która ma na podstawie formularza tworzyć nową encję i zapisywać do bazy danych.
 
-### Zadanie 3 &ndash; modyfikacja Tweeta
+### Zadanie A4 &ndash; modyfikacja Tweeta
 Dopisz akcję `/update/{id}`.
 
 Jeżeli wejdziemy na nią metodą GET, to ma wczytać Tweet o podanym **id** i następnie wyświetlić do niego formularz do edycji.
 Jeżeli wejdziemy na nią metodą POST, to powinna zapamiętać wysłane informację do bazy danych.
 
-### Zadanie 4 &ndash; dodatkowe
+## Część B &ndash; Zaawansowane formularze
+
+### Zadanie B1 &ndash; dodatkowe
 Popraw rozwiązania do zajęć z Doctrine i modeli, aby korzystać z formularzy wbudowanych w Symfony.
 
 <!-- Links -->
