@@ -26,7 +26,7 @@ Następnie:
 Wygeneruj nowy kontroler o nazwie **views** za pomocą odpowiedniej komendy konsolowej. Na razie nie generuj do niego żadnej akcji.  
 
 ### Zadanie A3 &ndash; Korzystanie z szablonu
-Stwórz nową akcję przypisaną do adresu `/render`. Podepnij do niej widok `view_ex_3.html.twig` (który możesz znaleźć w katalogu z zadaniami). Widok ten nie przyjmuje żadnych danych.
+Stwórz nową akcję przypisaną do adresu `/render`. Podepnij do niej widok `view_ex_a3.html.twig` (który możesz znaleźć w katalogu z zadaniami). Widok ten nie przyjmuje żadnych danych.
 Włóż ten szablon w dwa miejsca:
 * w katalog Bundla,
 * w katalog `app/resources/…`.
@@ -35,10 +35,10 @@ Zobacz, który się wyświetla jako pierwszy. Usuń go i zobacz, co się stanie.
 ## Część B &ndash; podstawowa składnie Twig
 
 ### Zadanie B1 &ndash; przekazywanie danych do szablonu
-Stwórz nową akcję przypisaną do adresu `/render/{username}`. Podepnij do niej widok `view_ex_4.html.twig` (który możesz znaleźć w katalogu z zadaniami). Widok ten przyjmuje jedną zmienną o nazwie `username`. Przekaż ją.
+Stwórz nową akcję przypisaną do adresu `/render/{username}`. Podepnij do niej widok `view_ex_b1.html.twig` (który możesz znaleźć w katalogu z zadaniami). Widok ten przyjmuje jedną zmienną o nazwie `username`. Przekaż ją.
 
 ### Zadanie B2 &ndash; adnotacje
-Przerób zadania 3. i 4. w taki sposób, żeby skorzystać z adnotacji @Template. Nie usuwaj starego rozwiązania, tylko je zakomentuj.
+Przerób zadania A3 i B1 w taki sposób, żeby skorzystać z adnotacji @Template. Nie usuwaj starego rozwiązania, tylko je zakomentuj.
 
 ### Zadanie B3 &ndash; pierwszy szablon
 Stwórz akcję podpiętą do adresu `/repeatSentence/{n}`.
@@ -64,7 +64,7 @@ Następnie dopisz akcję `/showArticle/{n}`, która wczyta artykuł o podanym **
 ## Część C &ndash; załączanie innych szablonów
 
 ### Zadanie C1 &ndash; wszystkie artykuły
-Stwórz akcję `/showAllArticles`, która wyświetli wszystkie artykuły. Do wyświetlenia artykułu użyj szablonu z zadania 8. Nie pisz wyświetlania od nowa, w pętli użyj zrobionego już szablonu.
+Stwórz akcję `/showAllArticles`, która wyświetli wszystkie artykuły. Do wyświetlenia artykułu użyj szablonu z zadania B5 Nie pisz wyświetlania od nowa, w pętli użyj zrobionego już szablonu.
 
 ### Zadanie C2 &ndash; szablon główny
 Stwórz szablon bazowy dla całej Twojej aplikacji. Powinien on dawać możliwość nadpisania:

@@ -52,7 +52,7 @@ Dodaj do całego kontrolera przedrostek `/first`. Zobacz, jak zmieniły się adr
 ## Część C &ndash; Kontroler
 
 ### Zadanie C1 &ndash; obsługa formularza
-Do drugiej akcji z zadania 6. dopisz kod, który będzie poprawnie będzie odczytywał dane z formularza i wyświetli je na stronie.
+Do drugiej akcji z zadania B4 dopisz kod, który będzie poprawnie będzie odczytywał dane z formularza i wyświetli je na stronie.
 
 ### Zadanie C2 &ndash; sesja
 Stwórz dwie akcje:
