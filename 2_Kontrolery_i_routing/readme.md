@@ -44,7 +44,7 @@ Stwórz nową akcję przypisaną do adresu `/showPost/{id}` gdzie `{id}` jest sl
 ### Zadanie B4 &ndash; metody
 Stwórz dwie akcje:
   1. Pierwsza akcja ma być przypisana do adresu `/form` i metody `GET`. Ma ona wyświetlać formularz z polem do wpisania tekstu. Formularz ma wskazywać na ten sam adres.
-  2. Druga akcja ma być przypisana do adresu `/form` i metody `POST`. Akcja ma &ndash; póki co &ndash; wyświetlać napis „Formularz przyjęty”. Nie przejmuj się &ndash; w tym etapie &ndash; przesłanymi danymi.
+  2. Druga akcja ma być przypisana do adresu `/form` i metody `POST`. Akcja ma &ndash; póki co &ndash; wyświetlać napis „Formularz przyjęty”. Nie przejmuj się &ndash; na tym etapie &ndash; przesłanymi danymi.
 
 ### Zadanie B5 &ndash; przedrostek
 Dodaj do całego kontrolera przedrostek `/first`. Zobacz, jak zmieniły się adresy wszystkich do tej pory stworzonych przez Ciebie stron.
