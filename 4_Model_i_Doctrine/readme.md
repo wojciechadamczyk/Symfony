@@ -40,10 +40,10 @@ Wygeneruj odpowiedną tabelę w bazie danych, użyj komend konsolowych. Przeanal
 
 ## Część C &ndash; Praca na modelu
 
-### Zadanie C1 &ndash; tworzenie książki 1/2
+### Zadanie C1 &ndash; tworzenie książki
 Stwórz akcję `/newBook`, która ma wyświetlać formularz do tworzenia nowej książki. Formularz &ndash; póki co &ndash; napisz w normalnym HTML. Formularz ma kierować do akcji `/createBook`.
 
-### Zadanie C2 &ndash; tworzenie książki 2/2
+### Zadanie C2 &ndash; tworzenie książki
 Stwórz akcję `/createBook`. Akcja ta ma pobierać informacje z POST-a i na jej podstawie tworzyć i zapamiętywać do bazy danych nową książkę. Na razie powinna wyświetlać statyczną informację o tym, że udało się stworzyć książkę (co zweryfikuj za pomocą PHPMyAdmin).
 
 ### Zadanie C3 &ndash; wyświetlanie książki

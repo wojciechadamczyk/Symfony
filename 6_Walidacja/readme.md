@@ -25,7 +25,7 @@ Następnie:
 W projekcie stwórz nową encję `Książka`, która ma mieć następujące pola i walidacje:
   1. id,
   2. title &ndash; napis, co najmniej pięć znaków,
-  3. raiting &ndash; float w przedziale od 0.00 do 10.00,
+  3. rating &ndash; float w przedziale od 0.00 do 10.00,
   4. description &ndash; tekst, maksymalnie 600 znaków,
   5. pages &ndash; int, większy od 0.
 

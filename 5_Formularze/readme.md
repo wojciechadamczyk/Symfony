@@ -31,7 +31,8 @@ Wygeneruj dla niego Kontroler z następującymi akcjami:
   * `create`,
   * `new`,
   * `showAll`.
-Póki co napisz akcję `showAll`, która wyświetli tytuły wszystkich `Tweetów` w bazie danych.
+
+Póki co napisz akcję `showAll`, która wyświetli tytuły wszystkich Tweetów w bazie danych.
 
 ### Zadanie A3 &ndash; tworzenie Tweeta
 Napisz dla Tweeta następujące akcje:
@@ -42,7 +43,7 @@ Napisz dla Tweeta następujące akcje:
 Dopisz akcję `/update/{id}`.
 
 Jeżeli wejdziemy na nią metodą GET, to ma wczytać Tweet o podanym **id** i następnie wyświetlić do niego formularz do edycji.
-Jeżeli wejdziemy na nią metodą POST, to powinna zapamiętać wysłane informację do bazy danych.
+Jeżeli wejdziemy na nią metodą POST, to powinna zapamiętać wysłane informacje do bazy danych.
 
 ## Część B &ndash; Zaawansowane formularze
 

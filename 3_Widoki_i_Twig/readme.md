@@ -29,10 +29,10 @@ Wygeneruj nowy kontroler o nazwie **views** za pomocą odpowiedniej komendy kons
 Stwórz nową akcję przypisaną do adresu `/render`. Podepnij do niej widok `view_ex_a3.html.twig` (który możesz znaleźć w katalogu z zadaniami). Widok ten nie przyjmuje żadnych danych.
 Włóż ten szablon w dwa miejsca:
 * w katalog Bundla,
-* w katalog `app/resources/…`.
+* w katalog `app/Resources/…`.
 Zobacz, który się wyświetla jako pierwszy. Usuń go i zobacz, co się stanie.
 
-## Część B &ndash; podstawowa składnie Twig
+## Część B &ndash; podstawowa składnia Twig
 
 ### Zadanie B1 &ndash; przekazywanie danych do szablonu
 Stwórz nową akcję przypisaną do adresu `/render/{username}`. Podepnij do niej widok `view_ex_b1.html.twig` (który możesz znaleźć w katalogu z zadaniami). Widok ten przyjmuje jedną zmienną o nazwie `username`. Przekaż ją.
@@ -88,4 +88,3 @@ Zobacz, czym się różnią wygenerowanie linki.
 [ref-commit]: http://gitref.org/basic/#commit
 [ref-push]: http://gitref.org/remotes/#push
 [pull-request]: https://help.github.com/articles/creating-a-pull-request
-
