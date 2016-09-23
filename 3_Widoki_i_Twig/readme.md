@@ -19,8 +19,8 @@ W katalogu stwórz nowy projekt Symfony i wgraj do niego wcześniej przygotowany
 ### Zadanie A1 &ndash; tworzenie projektu
 Stwórz nowy projekt o nazwie **projekt_view** (jeżeli dostaniesz błąd „Could not delete /tmp/…” nie przejmuj się – Symfony będzie poprawnie działać).
 Następnie:
-1. Stwórz w nim nowy bundle (o nazwie CodersLab).
-2. Usuń AppBundle (wykonaj takie same kroki jak w zadaniu 2. z zadań z Podstaw Symfony).
+  1. Stwórz w nim nowy bundle (o nazwie CodersLab).
+  2. Usuń AppBundle (wykonaj takie same kroki jak w zadaniu 2. z zadań z Podstaw Symfony).
 
 ### Zadanie A2 &ndash; nowy kontroler
 Wygeneruj nowy kontroler o nazwie **views** za pomocą odpowiedniej komendy konsolowej. Na razie nie generuj do niego żadnej akcji.  
@@ -28,8 +28,9 @@ Wygeneruj nowy kontroler o nazwie **views** za pomocą odpowiedniej komendy kons
 ### Zadanie A3 &ndash; Korzystanie z szablonu
 Stwórz nową akcję przypisaną do adresu `/render`. Podepnij do niej widok `view_ex_a3.html.twig` (który możesz znaleźć w katalogu z zadaniami). Widok ten nie przyjmuje żadnych danych.
 Włóż ten szablon w dwa miejsca:
-* w katalog Bundla,
-* w katalog `app/Resources/…`.
+  * w katalog Bundla,
+  * w katalog `app/Resources/…`.
+
 Zobacz, który się wyświetla jako pierwszy. Usuń go i zobacz, co się stanie.
 
 ## Część B &ndash; podstawowa składnia Twig
@@ -71,14 +72,15 @@ Stwórz szablon bazowy dla całej Twojej aplikacji. Powinien on dawać możliwo�
   1. Tytułu strony.
   2. Nazwy kontrolera (jako głównego tytuły opakowanego w **h1** ponad treścią strony).
   3. Głównej części strony (opakowaną w **div**).
+
 Powinien zawierać menu (na razie zostaw puste). Menu powinno być widoczne zawsze. Popraw wszystkie szablony z poprzednich zadań, aby dziedziczyły po szablonie głównym i wypełniały odpowiednie bloki (czyli nadawały swój tytuł, nazwę swojego kontrolera i główną część strony).
 
 ## Część CD &ndash; Linki i assety
 
 ### Zadanie D1 &ndash; menu
-Zmień główny szablon w taki sposób, żeby w menu wyświetlały się linki do wszystkich akcji z poprzednich zadań (pamiętaj o przekazaniu poprawnych stubów). Napisz menu dwa razy:
-1. używając `path()`,
-2. używając `url()`.
+Zmień główny szablon w taki sposób, żeby w menu wyświetlały się linki do wszystkich akcji z poprzednich zadań (pamiętaj o przekazaniu poprawnych slugów). Napisz menu dwa razy:
+  1. używając `path()`,
+  2. używając `url()`.
 
 Zobacz, czym się różnią wygenerowanie linki.
 
