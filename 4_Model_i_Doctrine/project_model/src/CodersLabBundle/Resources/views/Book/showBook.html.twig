@@ -1,0 +1,13 @@
+
+{% extends 'base.html.twig' %}
+
+{% block title %}ALL BOOKS{% endblock %}
+
+{% block body %}
+    
+    {% for book in allBooks %}
+        <p>
+            <a href="{{ path("showBook", {"id":book.id}) }}">{{ book.title }}</a>
+        </p>
+    {% endfor %}
+{% endblock %}

@@ -1,0 +1,11 @@
+
+{% extends "::base" %}
+{% block body %}
+    {% for author in authors %}
+        <h1>Author</h1>
+        {{author.name }} <br/>
+        {{author.lastName }}<br/>
+        {{author.desription }}<br/>
+        <a href="{{ path('showAuthor, {'id:author.id) }}">showAuthor</a>
+        {% endfor %}
+        {% endblock %}

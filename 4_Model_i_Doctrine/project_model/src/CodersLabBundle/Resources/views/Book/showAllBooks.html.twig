@@ -1,0 +1,13 @@
+
+
+
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ book.title }}{% endblock %}
+
+{% block body %}
+    <p><a href="{{ path("showAllBooks") }}">Show all books</a></p>
+    <h2>{{ book.title }} (#{{ book.id }})</h2>
+    <p>{{ book.description }}</p>
+    <p><b>Rating: {{ book.rating }}</b></p>
+{% endblock %}

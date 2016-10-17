@@ -1,0 +1,10 @@
+{% extends "::base.html.twig" %}
+
+{%block title %}CodersLabBundle:Book:index{% endblock %}
+
+{%block body%}
+    {{book.description }} <br/>
+    {{book.title}} <br/>
+    {{book.rating}}<br/>
+    
+    {% enblock %}

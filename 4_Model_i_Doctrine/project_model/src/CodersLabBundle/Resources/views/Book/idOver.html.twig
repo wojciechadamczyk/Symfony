@@ -1,0 +1,9 @@
+{% extends "::base.html.twig" %}
+{% block body %}
+    {% for book in books %}
+        <h1>Books</h1>
+        {{ book.title }} <br/>
+        {{book.rating }} <br/>
+        {{book.description }} <br/>
+        {% endfor %}
+        {% endblock %}
